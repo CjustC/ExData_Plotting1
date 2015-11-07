@@ -1,15 +1,3 @@
-## Load libraries
-## download file from server
-## unpack file
-## read in full file there are 2075259 rows in this dataset
-## subset powerData to only grab dataes = c("1/2/2007","2/2/2007")
-## remove large data file to use only smaller file with extracted dates
-## Convert and combine Dates with times
-## make globalActivePower numeric for plotting
-## make variables numeric
-## create plot
-## Save plot to file
-
 library(data.table)  # Needed for 'fread'
 # Download and unpack file
 download.file(url = "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip", 
